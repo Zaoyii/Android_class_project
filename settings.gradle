@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ClassProject"
+include ':classproject9-27'
+include ':classproject9-29'
+include ':classproject10-4'
+include ':classproject10-10'
+include ':classproject10-17'
+include ':classproject10-31'
