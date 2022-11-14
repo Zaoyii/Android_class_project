@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         System.out.println(users.toString() + "---=====");
         if (users.size() > 0 || adapter != null) {
-            adapter = new MyListAdapter((ArrayList<User>) users, this, userDao);
+            adapter = new MyListAdapter(users, this, userDao);
             LinearLayoutManager memoManager = new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false);
             listRecycler.setAdapter(adapter);
             listRecycler.setLayoutManager(memoManager);
